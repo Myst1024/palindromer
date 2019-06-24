@@ -1,0 +1,6 @@
+palindromemordnilap
+test.txt
+a man, a plan, a canal: panama!
+thersNoPalindrome
+thereisapalindrome
+hgfd
