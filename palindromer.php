@@ -4,9 +4,14 @@ $output = [];
 $inputFile = 'input.txt';
 $outputFile = 'output.json';
 
-// using a supplied filename, if given
+// using a supplied input filename, if given
 if (array_key_exists(1, $argv)) {
     $inputFile = $argv[1];
+}
+
+// using a supplied output filename, if given
+if (array_key_exists(2, $argv)) {
+    $outputFile = $argv[2];
 }
 
 // Checking whether the input file exists
@@ -46,7 +51,7 @@ foreach ($input as $line) {
 // Processing the resulting output array and placing it into file "output.json"
 $jsondata = json_encode($output, JSON_PRETTY_PRINT);
 file_put_contents($outputFile, $jsondata);
-echo "Done!";
+echo "Done!\n";
 
 // usort helper function to arrange array from longest to shortest string
 function sortByLength($a,$b){

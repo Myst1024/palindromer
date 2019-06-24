@@ -1,1 +1,51 @@
-[]
+[
+    {
+        "original": "palindromemordnilap",
+        "palindromes": [
+            "alindromemordnila",
+            "lindromemordnil",
+            "indromemordni",
+            "ndromemordn",
+            "dromemord",
+            "romemor",
+            "omemo",
+            "mem"
+        ],
+        "characters": 80
+    },
+    {
+        "original": "test.txt",
+        "palindromes": [
+            "tt"
+        ],
+        "characters": 2
+    },
+    {
+        "original": "a man, a plan, a canal: panama!",
+        "palindromes": [
+            "manaplanacanalpanam",
+            "anaplanacanalpana",
+            "naplanacanalpan",
+            "aplanacanalpa",
+            "planacanalp",
+            "lanacanal",
+            "anacana",
+            "nacan",
+            "ama",
+            "ana",
+            "ana",
+            "aca",
+            "ana",
+            "ana"
+        ],
+        "characters": 114
+    },
+    {
+        "original": "thereisapalindrome",
+        "palindromes": [
+            "ere",
+            "apa"
+        ],
+        "characters": 6
+    }
+]
