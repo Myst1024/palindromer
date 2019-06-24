@@ -25,7 +25,6 @@ foreach ($input as $line) {
     //Stripping line endings from string and storing for later
     $original = preg_replace("/\r|\n/", '', $line);
     $stripped = format($line);
-    $backwards = strrev($stripped);
     $palindromes = [];
     $result = new stdClass();
     //For each character in alphanumeric string
